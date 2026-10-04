@@ -199,4 +199,4 @@ Program berjalan dengan alur sebagai berikut:
 
 ![foto](python/dokumentasi/sebelum.png)
 ![foto](python/dokumentasi/proses.png)
-![foto](pythoncpp/dokumentasi/sesudah.png)
+![foto](python/dokumentasi/sesudah.png)

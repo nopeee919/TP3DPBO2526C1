@@ -4,7 +4,7 @@ Saya Novelio Yeheskiel Kapahang dengan NIM 2503048 mengerjakan TP 3 dalam mata k
 
 # Sistem Perpustakaan (OOP C++ & Python)
 
-Program sederhana untuk mengelola data **anggota perpustakaan** (mahasiswa, dosen, & staf) dan **buku**, termasuk proses peminjaman. Dibuat dalam dua bahasa (C++ dan Python) dengan desain yang sama.
+Program sederhana untuk mengelola data **anggota perpustakaan** (mahasiswa, dosen, & staf) dan **buku**, termasuk proses peminjaman.
 
 Konsep OOP yang diimplementasikan:
 
@@ -12,12 +12,9 @@ Konsep OOP yang diimplementasikan:
 2. **Array of object**: `vector` di C++ dan `list` di Python.
 3. **Hierarchical Inheritance**: `Mahasiswa`, `Dosen`, dan `Staf` sama-sama turunan dari `Anggota`.
 
-Semua atribut bersifat **private** (tidak ada `protected`), dan method bersifat **public**. Di Python, atribut private memakai awalan `__`.
-
-
 ## 1. Diagram Program
 
-![diagram program](desain_diagram_png)
+![diagram program](desain_diagram.png)
 
 ## 2. Atribut dan Method Setiap Kelas
 
@@ -35,7 +32,7 @@ Menyimpan data alamat tempat tinggal anggota.
 | `getAlamatLengkap()` | Mengembalikan alamat dalam satu string: `jalan, kota, provinsi` |
 
 ### Anggota (base class)
-Menyimpan data umum yang dimiliki semua anggota perpustakaan. Atributnya private, sehingga kelas turunan mengaksesnya lewat getter.
+Menyimpan data umum yang dimiliki semua anggota perpustakaan.
 
 | Atribut | Keterangan |
 |---|---|
